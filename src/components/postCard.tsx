@@ -8,7 +8,7 @@ function PostCard({ id, title, author, date, content }: Post) {
     <div className="relative flex flex-col md:flex-row gap-y-2 md:gap-x-2 w-full md:h-48 p-4 border border-gray-200 shadow-sm">
       <div className="relative md:grow h-40 md:h-full">
         <Image
-          src={`https://the-swe-life.s3.us-west-2.amazonaws.com/post-imgs/${id}/featured.png`}
+          src={`https://the-swe-life.s3.us-west-2.amazonaws.com/post-imgs/${id}/featured.jpg`}
           alt={`Featured image of blog post: ${title}`}
           objectFit="cover"
           fill

@@ -26,7 +26,7 @@ function HomePage({ posts }: Props) {
         <Hero
           headline="Welcome to The SWE Life 👋"
           supporting="A Software Engineering Blog"
-          imgURL="/images/hero.png"
+          imgURL="/images/hero.jpg"
         />
       </header>
       <section className="px-4">

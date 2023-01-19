@@ -44,7 +44,7 @@ const PostPage = ({ postData }) => {
           headline={postData.title}
           supporting={`By ${postData.author}`}
           date={postData.date}
-          imgURL={`${POST_IMGS_URL}/${postData.id}/featured.png`}
+          imgURL={`${POST_IMGS_URL}/${postData.id}/featured.jpg`}
         />
       </header>
       <section className="px-4">
