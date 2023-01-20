@@ -105,7 +105,7 @@ I realize that using ChatGPT is a great way to learn new things. In this case, I
 
 - Using ChatGPT allows me to gain exposure to new libraries, proper API usage (mostly), and different ways to structure code.
 
-## **2. Coding the Post Page**
+### **2. Coding the Post Page**
 
 The home page is more or less done functionally, thanks to our new friend, ChatGPT. Now it's time to code the blog post page! I will need a dynamic route to serve the correct blog post based on the slug in the URL. I'll also ask the bot to add a backlink to the home page.
 
